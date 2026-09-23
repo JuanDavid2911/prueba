@@ -89,3 +89,38 @@ li{
     box-shadow: 0 3px 10px rgb(255, 0, 0);
 
 }
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    ul {
+        padding: 15px 25px;
+    }
+
+    li {
+        font-size: 16px;
+        margin-bottom: 18px;
+        line-height: 1.5;
+    }
+}
