@@ -1,6 +1,12 @@
 body{
     background-image: url("imagenes/fondo.png");
 
+    background-size: cover;
+    
+    background-position: center;
+    
+    background-attachment: fixed;
+
     font-family: Arial, sans-serif;
 
     margin: 0;
@@ -114,6 +120,7 @@ li{
     img {
         width: 100%;
         height: auto;
+        box-sizing: border-box;
     }
 
     ul {
